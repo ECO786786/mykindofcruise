@@ -1,0 +1,32 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.card {
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+.card img {
+  max-height: 100px;
+  object-fit: cover;
+  width: 180px;
+}
+
+.card-content {
+  padding: 5px 0;
+  text-align: center;
+}
+
+h2 {
+  padding: 2rem 0;
+  font-family: "Outfit", serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  font-family: "Outfit", serif;
+  font-weight: 600;
+}

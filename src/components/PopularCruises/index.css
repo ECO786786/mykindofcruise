@@ -1,0 +1,50 @@
+.card-container-cruises {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card-cruises {
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  position: relative;
+}
+.card-cruises-img {
+  height: 200px;
+  object-fit: cover;
+  width: 320px;
+}
+
+.card-content-cruises {
+  padding: 1rem;
+  text-align: left;
+}
+
+#cruise-logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 8px;
+}
+
+.card-container-cruises p {
+  font-family: "Outfit", serif;
+  font-size: 0.7rem;
+}
+
+.cruises-h2 {
+  padding: 2rem 0;
+  font-family: "Outfit", serif;
+  font-weight: 700;
+  text-align: center;
+}
+span {
+  font-weight: 300;
+  padding-right: 2px;
+}
+.lower-weight {
+  font-weight: 300;
+}
+.higher-weight {
+  font-weight: 700;
+}
